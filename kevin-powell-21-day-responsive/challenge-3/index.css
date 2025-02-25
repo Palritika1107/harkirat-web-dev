@@ -1,0 +1,136 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin : 0;
+    font-family: 'Roboto';
+    font-size: 1.3rem;
+}
+
+.hero{
+
+    background: #23424A;
+    color:white;
+    /* width : 80%; */
+    padding : 100px 0;
+
+}
+
+.container{
+
+    width:85%;
+    /* padding : 3em; */
+    margin: 0 auto;
+    max-width : 1000px;
+
+    /* border : 2px solid yellow; */
+    
+}
+.hero__text{
+    width : 60%;
+
+    /* border : 2px  solid pink; */
+
+}
+
+/* .container-heading{
+
+    
+    font-size: 48px;
+
+
+}
+
+.container-para{
+
+    font-size: 21px;
+} */
+
+
+
+.button{
+
+    /* font-size: 21px; */
+  display: inline-block; /*on doing this button came inside parent box*/
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+    
+  background: #38CFD9;
+  padding: 0.75em 2em;       /* Padding for size */  
+  border: none;             /* Remove border */
+  border-radius: 100px;
+
+  /* margin-top: 20em; */
+
+}
+.hero p{
+
+    margin-bottom: 3em;
+}
+
+@media (max-width : 650px){
+
+    .hero__text{
+        width : 100%;
+    
+        /* border : 2px  solid pink; */
+    
+    }
+
+}
+
+.flex-container{
+
+    display: flex;
+    padding: 5rem;
+    margin: 0 auto;
+}
+
+.middle-section{
+    background: white;
+    color:black;
+
+}
+
+.middle-section h2{
+
+    color: #87629A;
+}
+
+.box{
+    text-align: center;
+}
+
+.bottom-section{
+    justify-content: space-around;
+    background: #136C72;
+    color: white;
+}
+
+.bottom-section .box{
+
+    
+    width : 40%;
+}
+
+@media (max-width : 650px){
+
+    .flex-container{
+        flex-direction: column;
+    }
+
+    .bottom-section{
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottom-section .box{
+        width : 100%;
+    }
+    
+}

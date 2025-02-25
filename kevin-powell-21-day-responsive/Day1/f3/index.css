@@ -1,0 +1,216 @@
+/* *{
+    margin: 0;
+} */
+
+body{
+
+    margin: 0;
+    font-family: 'Ubuntu',sans-serif;
+
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+/* ---------------------------------------------- */
+/* typography */
+/* ------------------------------------------------ */
+
+h1,h2,h3{
+
+    font-family: 'Lora',serif;
+    font-weight: 400;
+    color: #143774;
+}
+
+h1{
+    
+    font-size: 2rem;
+    margin : 0;
+}
+
+a{
+    color : #1792d2;
+}
+
+.subtitle{
+
+    font-weight: 900; /*  same as bold  */
+    color : #1792d2;
+    font-size: 0.75rem;
+    margin: 0;
+}
+
+.article-title{
+
+    font-size: 1.5rem;
+}
+
+.article-read-more,
+.article-info{
+
+    font-size: 0.875rem;
+}
+
+.article-read-more{
+    font-weight: 700;
+    color: #1792d2;
+    text-decoration: none;
+}
+
+.article-read-more:hover,
+.article-read-more:focus{
+
+    color: #143774;
+    text-decoration: underline;
+}
+
+
+.article-body-highlight{
+    font-weight : 1000;
+}
+
+.article-body-link{
+
+    color : #1792d2;
+    text-decoration: underline;
+}
+
+.article-body-link:hover{
+    color : #143774;
+}
+
+
+/* --------------------------------------------------- */
+/* LAYOUT */
+/* ----------------------------------------------------- */
+
+header{
+
+    /* text-align: center; */
+    background: #f8f8f8;
+    padding: 2em 0;
+
+    /* display: flex; */
+
+
+}
+
+img{
+
+    /* using the following two features solves 98% if problems with images  */
+
+    max-width: 100%;
+    display: block;  /* images are inline by default , leads to small gaps in case of margins,etc */
+}
+
+/*  */
+
+.container{
+
+    width : 90%;
+    max-width: 900px;
+    /* border : 1px solid purple; */
+
+    margin: 0 auto;
+
+}
+
+/* extra temporary classes with  specific puropose */
+.container-flex{ 
+
+
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width : 664px){
+
+    .container-flex{
+
+        
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+
+}
+
+
+/* --------------------------------------------------------------------------- */
+
+nav ul{
+
+    list-style: none;
+    padding : 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+nav li{
+
+    margin-left : 1.5em;
+    
+
+}
+
+nav a{
+
+    text-decoration: none;
+    color : #707070;
+    font-weight: 700;
+    padding: 0.25em 0;
+
+}
+
+nav a:hover,
+nav a:focus
+{
+
+    color: #1792d2;
+
+}
+
+
+@media (max-width : 664px){
+
+
+    nav ul{ 
+
+        
+        flex-direction: column;
+
+    }
+
+    nav li{
+
+        margin: 0.5em 0;
+    }
+
+}
+/* ---------------------------------------------------------------- */
+.current-element{
+
+    border-bottom: 1px solid #707070;
+}
+
+.current-element:hover{
+
+    color : #707070;
+}
+
+aside{
+
+    width : 20%;
+}
+
+
+/* ...................................................................................................*/
+/* NEXT SECTION*/
+/*....................................................................................................  */
+
+
+
+
