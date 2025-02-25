@@ -1,0 +1,24 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "name": "brush",
+      "isComplete": false
+    },
+    {
+      "id": 2,
+      "name": "drive",
+      "isComplete": false
+    },
+    {
+      "id": 3,
+      "name": "study",
+      "isComplete": false
+    },
+    {
+      "name": "study",
+      "isComplete": true,
+      "id": 4
+    }
+  ]
+}
